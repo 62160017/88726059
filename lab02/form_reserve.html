@@ -46,17 +46,33 @@
                 <input type="time" id="start" name="arrivaidat"></td>
         </tr>
         <tr>
-            <tr><td><label for="departuredate">Departuredate</label></td>
+            <td><label for="departuredate">Departuredate</label></td>
                 <td><input type="date" id="start" name="departuredate">&emsp;&emsp;&emsp;
                 <input type="time" id="start" name="departuredatet"></td>
         </tr>
+        <tr>
+            <td><label for="pickup">Free pick</label></td>
+            <td><input type="radio" name="pickup" id="pickup" value="Yes">Yes,Sure!<br><input type="radio" name="pickup" id="pickup" value="No">No,I already rented a car</td> 
+        </tr>
+        <tr>
+            <td><label for="flightnum">Flight NumBer</label></td>
+            <td><input type="text" name="flightnum" id="flightnum"></td>
 
+        </tr>
+        <tr>
+            <td><label for="otherreq">Other requests</label></td>
+            <td><Textarea name="otherreq" id="otherreq" rows="5" cols="50"></Textarea>
+            </td>
+        </tr>
+        <tr>
+            <td Colspan="2">
+             <center>
+                 <input type="submit" value="Complete Reservation">
+            </center>
+        </td>
+        </tr>
 
-
-
-   
-
-    </form>
+</form>
 </table>
 </body>
 </html>
